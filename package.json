@@ -22,11 +22,6 @@
     "src",
     "theme"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
-  },
   "scripts": {
     "check": "npm-run-all --parallel check:*",
     "check:bower": "magi check-bower",
@@ -39,10 +34,11 @@
     "preversion": "magi update-version"
   },
   "devDependencies": {
-    "@vaadin/vaadin-component-dev-dependencies": "^4.9.2",
     "@polymer/iron-component-page": "^4.0.1",
+    "@vaadin/vaadin-component-dev-dependencies": "^4.9.2",
     "@vaadin/vaadin-demo-helpers": "^3.1.0",
-    "@webcomponents/webcomponentsjs": "^2.5.0"
+    "@webcomponents/webcomponentsjs": "^2.5.0",
+    "eslint-plugin-html": "^6.1.2"
   },
   "dependencies": {
     "@polymer/polymer": "^3.0.0",
