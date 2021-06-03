@@ -1,6 +1,6 @@
-import "../../../vaadin-material-styles/color.js";
-import "../../../vaadin-material-styles/shadow.js";
-import "../../../vaadin-material-styles/typography.js";
+import "@vaadin/vaadin-material-styles/color.js";
+import "@vaadin/vaadin-material-styles/shadow.js";
+import "@vaadin/vaadin-material-styles/typography.js";
 import "./input/color-picker-hex-input-styles.js";
 import "./input/color-picker-hsla-input-styles.js";
 import "./input/color-picker-rgba-input-styles.js";
