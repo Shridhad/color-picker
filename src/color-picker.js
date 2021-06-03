@@ -75,7 +75,7 @@ class ColorPicker extends ElementMixin(ThemableMixin(PolymerElement)) {
   }
 
   static get version() {
-    return '2.0.0-beta.4';
+    return '2.0.0-beta.5';
   }
 
   static get properties() {
